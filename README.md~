@@ -1,28 +1,25 @@
-== README
+Enterpriceape
+==============
+powerful sw
+------------
+###Welcome to repo
+access code is [HERE](https://github.com/gauravmali/enterpriseape)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+>##hello world
+>
+>My name is Gaurav Malik
+>
+>This is *wonderfull*
 
-Things you may want to cover:
+this is **wonderfull**
 
-* Ruby version
+###Crazy good s/w
++one
++two
++three
 
-* System dependencies
+#Reason to choose us
+1. price
+2. precision
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+here is a ruby code to print `puts 'Hello World'`
