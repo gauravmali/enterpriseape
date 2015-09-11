@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'welcome1/invoice' => 'invoices#index'
+  get 'welcome1/invoice'
 
   get 'welcome/index'
 
