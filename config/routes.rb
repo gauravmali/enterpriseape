@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   get 'welcome1/invoice' => 'invoices#index'
 
   get 'welcome/index'
