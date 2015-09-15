@@ -14,31 +14,37 @@
 
 	  <div class="control-group">
 	    <%= f.label :date, class:'control-label'%><br>
-	  <div class="control">  
-          <%= f.datetime_select :date %>
+	  <div class="controls">  
+          <%= f.date_select :date %>
 	  </div>
 	  </div>
 	  <div class="control-group">
 	    <%= f.label :company, class:'control-label' %><br>
-	  <div class="control">	    
+	  <div class="controls">	    
 	<%= f.text_field :company %>
 	  </div>
 	  </div>
 	  <div class="control-group">
 	    <%= f.label :tax, class:'control-label' %><br>
-	  <div class="control">
+	  <div class="controls">
 	    <%= f.text_field :tax %>
 	  </div>
 	  </div>
 	  <div class="control-group">
 	    <%= f.label :saleperson, class:'control-label' %><br>
-	  <div class="control">
+	  <div class="controls">
 	    <%= f.text_field :saleperson %>
 	  </div>
 	  </div>
+	<div class="control-group">
+	 <%= f.label "Status", class:'control-label' %>
+	 <div class="controls">
+	  <%= f.select(:status_type, options_for_select([['PAID', 'PAID'], ['PENDING', 'PENDING']]),{include_blank:true}) %>
+	</div>
+	</div><br>
 	  <div class="control-group">
-	   <div class="control">  
-          <%= f.submit %>
+	   <div class="controls">  
+          <%= f.submit 'Submit', class: 'btn btn-default' %>
 	  </div>
           </div>
 	<% end %>
