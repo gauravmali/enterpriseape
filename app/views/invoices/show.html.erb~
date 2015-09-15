@@ -17,7 +17,7 @@
 
 <p>
   <strong>Saleperson:</strong>
-  <%= @invoice.employee.name %>
+  <%= @invoice.employee.id %>
 </p>
 
 <%= link_to 'Edit', edit_invoice_path(@invoice) %> |
